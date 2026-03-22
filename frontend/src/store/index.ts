@@ -57,7 +57,12 @@ export const useAuthStore = create<AuthState>((set) => ({
             }
             const res = await authAPI.getMe();
             set({ user: res.data, token, isAuthenticated: true, isLoading: false });
-        } catch {
+        } catch (error: any) {
+            console.error('🔥 CRITICAL GET-ME FAILURE:', error);
+            if (typeof window !== 'undefined') {
+                const toast = (await import('react-hot-toast')).default;
+                toast.error(`Auto-Login Failed: ${error.response?.data?.error || error.message}`);
+            }
             localStorage.removeItem('tnp_token');
             set({ isLoading: false, isAuthenticated: false });
         }

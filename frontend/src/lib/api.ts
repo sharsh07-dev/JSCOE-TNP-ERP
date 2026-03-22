@@ -1,13 +1,9 @@
 import axios from 'axios';
 
-let rawApiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
-// Automatically append /api if the user forgot to add it in Vercel environment variables
-if (!rawApiUrl.endsWith('/api') && !rawApiUrl.endsWith('/api/')) {
-    rawApiUrl = rawApiUrl.replace(/\/$/, '') + '/api';
-}
-const API_URL = rawApiUrl;
+const isLocalhost = typeof window !== 'undefined' && window.location.hostname === 'localhost';
+const API_URL = isLocalhost ? 'http://localhost:5000/api' : 'https://jscoe-tnp-erp.onrender.com/api';
 
-console.log('🔗 API Base URL:', API_URL);
+console.log('🔗 API Base URL resolved to:', API_URL);
 
 const api = axios.create({
     baseURL: API_URL,
