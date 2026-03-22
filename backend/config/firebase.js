@@ -6,7 +6,17 @@ let db;
 const initFirebase = () => {
   try {
     if (!admin.apps.length) {
-      const serviceAccount = require('./serviceAccountKey.json');
+      let serviceAccount;
+      try {
+        serviceAccount = require('./serviceAccountKey.json');
+      } catch (err) {
+        if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+          serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+        } else {
+          throw new Error('Missing Firebase Admin Credentials! Use serviceAccountKey.json or FIREBASE_SERVICE_ACCOUNT env var');
+        }
+      }
+
       admin.initializeApp({
         credential: admin.credential.cert(serviceAccount)
       });
