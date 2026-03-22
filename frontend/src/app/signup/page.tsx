@@ -26,7 +26,9 @@ export default function SignupPage() {
             toast.success('Registration Initiated: Request Sent for Authorization');
             router.push('/login');
         } catch (err: any) {
-            toast.error(err.response?.data?.error || 'Registration Failed');
+            console.error('Registration failed:', err);
+            const errorMessage = err.response?.data?.error || err.message || 'Registration Failed';
+            toast.error(errorMessage);
         } finally {
             setIsLoading(false);
         }

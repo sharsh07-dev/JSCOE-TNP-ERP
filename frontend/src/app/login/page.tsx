@@ -22,7 +22,9 @@ export default function LoginPage() {
             toast.success('Access Granted: Welcome to the TNP Cell');
             router.push('/dashboard');
         } catch (err: any) {
-            toast.error(err.response?.data?.error || 'Authorization Failed');
+            console.error('Login failed:', err);
+            const errorMessage = err.response?.data?.error || err.message || 'Authorization Failed';
+            toast.error(errorMessage);
         } finally {
             setIsLoading(false);
         }
