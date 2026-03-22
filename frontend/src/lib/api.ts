@@ -1,10 +1,11 @@
 import axios from 'axios';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+console.log('🔗 API Base URL:', API_URL);
 
 const api = axios.create({
     baseURL: API_URL,
-    timeout: 120000, // 2 min timeout for AI processing
+    timeout: 120000, 
 });
 
 api.interceptors.request.use((config) => {
