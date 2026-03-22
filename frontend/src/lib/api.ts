@@ -27,7 +27,10 @@ api.interceptors.response.use(
             if (typeof window !== 'undefined') {
                 localStorage.removeItem('tnp_token');
                 localStorage.removeItem('tnp_user');
-                window.location.href = '/login';
+                // Only forcefully redirect to login if we aren't already there!
+                if (!window.location.pathname.includes('/login')) {
+                    window.location.href = '/login';
+                }
             }
         }
         return Promise.reject(error);
