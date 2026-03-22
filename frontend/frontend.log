@@ -1,0 +1,2064 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.151.154:3000
+- Environments: .env.local
+✓ Ready in 549ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/harshshinde/Downloads/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/harshshinde/Downloads/missionerp/frontend/package-lock.json
+
+
+ GET /dashboard 404 in 694ms (next.js: 563ms, application-code: 131ms)
+ GET /dashboard 200 in 306ms (next.js: 86ms, application-code: 220ms)
+ GET /dashboard/generate 200 in 81ms (next.js: 34ms, application-code: 47ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports 200 in 38ms (next.js: 25ms, application-code: 13ms)
+ GET /dashboard/analytics 200 in 39ms (next.js: 26ms, application-code: 13ms)
+ GET /dashboard/compare 200 in 46ms (next.js: 27ms, application-code: 19ms)
+ GET /dashboard 200 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET /dashboard/generate 200 in 41ms (next.js: 10ms, application-code: 31ms)
+✓ Compiled in 1797ms
+✓ Compiled in 43ms
+ GET /dashboard/generate 200 in 217ms (next.js: 52ms, application-code: 165ms)
+ GET /dashboard/generate 200 in 615ms (next.js: 200ms, application-code: 414ms)
+ GET /dashboard/generate 200 in 313ms (next.js: 200ms, application-code: 113ms)
+ GET /dashboard/generate 200 in 52ms (next.js: 3ms, application-code: 49ms)
+ GET /dashboard/generate 200 in 95ms (next.js: 5ms, application-code: 90ms)
+ GET /dashboard/generate 200 in 34ms (next.js: 3ms, application-code: 31ms)
+✓ Compiled in 1136ms
+ GET /dashboard/generate 200 in 469ms (next.js: 164ms, application-code: 305ms)
+ GET /dashboard/generate 200 in 166ms (next.js: 68ms, application-code: 97ms)
+ GET /dashboard/generate 200 in 33ms (next.js: 3ms, application-code: 30ms)
+✓ Compiled in 171ms
+✓ Compiled in 130ms
+✓ Compiled in 454ms
+✓ Compiled in 727ms
+ GET /dashboard/generate 200 in 249ms (next.js: 134ms, application-code: 115ms)
+ GET /dashboard/generate 200 in 46ms (next.js: 6ms, application-code: 40ms)
+✓ Compiled in 883ms
+ GET /dashboard/generate 200 in 477ms (next.js: 244ms, application-code: 234ms)
+ GET /dashboard/generate 200 in 153ms (next.js: 63ms, application-code: 90ms)
+✓ Compiled in 264ms
+✓ Compiled in 690ms
+ GET /dashboard/generate 200 in 223ms (next.js: 95ms, application-code: 128ms)
+ GET /dashboard/generate 200 in 22ms (next.js: 2ms, application-code: 20ms)
+✓ Compiled in 755ms
+ GET /dashboard/generate 200 in 313ms (next.js: 116ms, application-code: 196ms)
+ GET /dashboard/generate 200 in 126ms (next.js: 82ms, application-code: 44ms)
+✓ Compiled in 416ms
+ GET /dashboard/generate 200 in 197ms (next.js: 103ms, application-code: 95ms)
+ GET /dashboard/generate 200 in 17ms (next.js: 1442µs, application-code: 16ms)
+✓ Compiled in 435ms
+ GET /dashboard/generate 200 in 188ms (next.js: 101ms, application-code: 87ms)
+ GET /dashboard/generate 200 in 41ms (next.js: 2ms, application-code: 39ms)
+ GET /dashboard/generate 200 in 181ms (next.js: 9ms, application-code: 173ms)
+ GET /dashboard 200 in 45ms (next.js: 23ms, application-code: 22ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/generate 200 in 21ms (next.js: 5ms, application-code: 16ms)
+ GET /dashboard/settings 200 in 64ms (next.js: 45ms, application-code: 20ms)
+ GET /dashboard/users 200 in 49ms (next.js: 32ms, application-code: 17ms)
+ GET /dashboard/analytics 200 in 56ms (next.js: 22ms, application-code: 34ms)
+ GET /dashboard/compare 200 in 35ms (next.js: 19ms, application-code: 15ms)
+ GET /dashboard/reports 200 in 36ms (next.js: 19ms, application-code: 17ms)
+ GET /dashboard/generate 200 in 17ms (next.js: 5ms, application-code: 12ms)
+[browser] Uncaught ReferenceError: Calendar is not defined
+    at GeneratePage (src/app/dashboard/generate/page.tsx:413:99)
+  411 | ...gory', value: selectedType?.label || reportType, icon: Building2 },
+  412 | ... Body', value: collegeInfo.collegeName, icon: Users },
+> 413 | ...e', value: collegeInfo.academicYear, icon: Calendar },
+      |                                               ^
+  414 | ...ad', value: `${rawText.length} characters`, icon: FileText },
+  415 | ...ce', value: `${images.length} photos`, icon: Image },
+  416 | ...tion', value: excelFile ? 'Active' : 'Not Provided', icon: FileSpreadsheet },
+ GET /dashboard/generate? 200 in 41ms (next.js: 7ms, application-code: 34ms)
+[browser] Uncaught ReferenceError: Calendar is not defined
+    at GeneratePage (src/app/dashboard/generate/page.tsx:413:99)
+  411 | ...gory', value: selectedType?.label || reportType, icon: Building2 },
+  412 | ... Body', value: collegeInfo.collegeName, icon: Users },
+> 413 | ...e', value: collegeInfo.academicYear, icon: Calendar },
+      |                                               ^
+  414 | ...ad', value: `${rawText.length} characters`, icon: FileText },
+  415 | ...ce', value: `${images.length} photos`, icon: Image },
+  416 | ...tion', value: excelFile ? 'Active' : 'Not Provided', icon: FileSpreadsheet },
+ GET /dashboard/generate 200 in 40ms (next.js: 8ms, application-code: 32ms)
+ GET /dashboard/settings 200 in 17ms (next.js: 5ms, application-code: 13ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/analytics 200 in 26ms (next.js: 7ms, application-code: 19ms)
+ GET /dashboard 200 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET /dashboard/generate 200 in 17ms (next.js: 4ms, application-code: 13ms)
+ GET /dashboard/reports 200 in 16ms (next.js: 5ms, application-code: 11ms)
+ GET /dashboard/reports 200 in 21ms (next.js: 3ms, application-code: 18ms)
+ GET /dashboard/compare 200 in 19ms (next.js: 5ms, application-code: 15ms)
+ GET /dashboard/analytics 200 in 21ms (next.js: 5ms, application-code: 16ms)
+ GET /dashboard/users 200 in 19ms (next.js: 7ms, application-code: 12ms)
+ GET /dashboard 200 in 17ms (next.js: 4ms, application-code: 13ms)
+✓ Compiled in 0ms
+ GET /dashboard 200 in 394ms (next.js: 194ms, application-code: 201ms)
+ GET /dashboard 200 in 108ms (next.js: 69ms, application-code: 39ms)
+ GET /dashboard 200 in 275ms (next.js: 9ms, application-code: 265ms)
+ GET /dashboard/generate 200 in 58ms (next.js: 30ms, application-code: 28ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports 200 in 58ms (next.js: 30ms, application-code: 28ms)
+ GET /dashboard/compare 200 in 36ms (next.js: 20ms, application-code: 16ms)
+ GET /dashboard/analytics 200 in 45ms (next.js: 15ms, application-code: 30ms)
+ GET /dashboard/users 200 in 30ms (next.js: 17ms, application-code: 12ms)
+ GET /dashboard/users 200 in 20ms (next.js: 3ms, application-code: 17ms)
+ GET /dashboard/settings 200 in 38ms (next.js: 25ms, application-code: 13ms)
+ GET /dashboard 200 in 16ms (next.js: 4ms, application-code: 12ms)
+ GET /dashboard/generate 200 in 42ms (next.js: 12ms, application-code: 30ms)
+ GET /dashboard/compare 200 in 67ms (next.js: 27ms, application-code: 40ms)
+ GET /dashboard/users 200 in 22ms (next.js: 4ms, application-code: 18ms)
+ GET /dashboard/settings 200 in 57ms (next.js: 23ms, application-code: 34ms)
+ GET /dashboard/compare 200 in 20ms (next.js: 5ms, application-code: 15ms)
+ GET /dashboard/reports 200 in 20ms (next.js: 6ms, application-code: 14ms)
+ GET /dashboard/generate 200 in 22ms (next.js: 5ms, application-code: 17ms)
+ GET /dashboard 200 in 34ms (next.js: 11ms, application-code: 23ms)
+ GET /dashboard 200 in 53ms (next.js: 9ms, application-code: 44ms)
+ GET /dashboard/generate 200 in 19ms (next.js: 4ms, application-code: 14ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/compare 200 in 50ms (next.js: 27ms, application-code: 23ms)
+ GET /dashboard/analytics 200 in 16ms (next.js: 2ms, application-code: 14ms)
+ GET /dashboard 200 in 19ms (next.js: 5ms, application-code: 14ms)
+ GET /dashboard/generate?type=session 200 in 31ms (next.js: 9ms, application-code: 21ms)
+ GET /dashboard/generate?type=session 200 in 119ms (next.js: 32ms, application-code: 87ms)
+✓ Compiled in 943ms
+ GET /dashboard/generate?type=session 200 in 411ms (next.js: 207ms, application-code: 204ms)
+ GET /dashboard/generate?type=session 200 in 69ms (next.js: 36ms, application-code: 33ms)
+ GET /dashboard/generate?type=session 200 in 419ms (next.js: 303ms, application-code: 117ms)
+ GET /dashboard/generate?type=session 200 in 57ms (next.js: 1623µs, application-code: 55ms)
+ GET /dashboard/generate?type=session 200 in 64ms (next.js: 1997µs, application-code: 62ms)
+ GET /dashboard/generate?type=session 200 in 62ms (next.js: 4ms, application-code: 58ms)
+ GET /dashboard/generate?type=session 200 in 54ms (next.js: 3ms, application-code: 51ms)
+ GET /dashboard/generate?type=session 200 in 57ms (next.js: 2ms, application-code: 55ms)
+ GET /dashboard/generate?type=session 200 in 58ms (next.js: 2ms, application-code: 56ms)
+ GET /dashboard/generate?type=session 200 in 60ms (next.js: 2ms, application-code: 58ms)
+ GET /dashboard/generate?type=session 200 in 53ms (next.js: 2ms, application-code: 51ms)
+ GET /dashboard/generate?type=session 200 in 55ms (next.js: 3ms, application-code: 53ms)
+ GET /dashboard/generate?type=session 200 in 69ms (next.js: 3ms, application-code: 66ms)
+✓ Compiled in 1ms
+ GET /dashboard/generate?type=session 200 in 93ms (next.js: 3ms, application-code: 90ms)
+ GET /dashboard/generate?type=session 200 in 118ms (next.js: 3ms, application-code: 115ms)
+ GET /dashboard/generate?type=session 200 in 121ms (next.js: 5ms, application-code: 116ms)
+ GET /dashboard/generate?type=session 200 in 104ms (next.js: 4ms, application-code: 99ms)
+ GET /dashboard/generate?type=session 200 in 104ms (next.js: 4ms, application-code: 99ms)
+ GET /dashboard/generate?type=session 200 in 77ms (next.js: 5ms, application-code: 73ms)
+ GET /dashboard/generate?type=session 200 in 77ms (next.js: 3ms, application-code: 74ms)
+ GET /dashboard/generate?type=session 200 in 73ms (next.js: 2ms, application-code: 71ms)
+ GET /dashboard/generate?type=session 200 in 61ms (next.js: 5ms, application-code: 56ms)
+ GET /dashboard/generate?type=session 200 in 63ms (next.js: 3ms, application-code: 61ms)
+ GET /dashboard/generate?type=session 200 in 79ms (next.js: 3ms, application-code: 76ms)
+ GET /dashboard/generate?type=session 200 in 91ms (next.js: 4ms, application-code: 88ms)
+ GET /dashboard/generate?type=session 200 in 76ms (next.js: 11ms, application-code: 65ms)
+ GET /dashboard/generate?type=session 200 in 45ms (next.js: 5ms, application-code: 40ms)
+ GET /dashboard/generate?type=session 200 in 23ms (next.js: 3ms, application-code: 20ms)
+ GET /dashboard/generate?type=session 200 in 204ms (next.js: 9ms, application-code: 195ms)
+ GET /login 200 in 64ms (next.js: 37ms, application-code: 27ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 54ms (next.js: 7ms, application-code: 48ms)
+ GET /login 200 in 153ms (next.js: 36ms, application-code: 117ms)
+ GET /login 200 in 62ms (next.js: 15ms, application-code: 47ms)
+✓ Compiled in 340ms
+✓ Compiled in 130ms
+ GET /login 200 in 90ms (next.js: 32ms, application-code: 59ms)
+ GET /login 200 in 37ms (next.js: 2ms, application-code: 34ms)
+ GET /login 200 in 34ms (next.js: 2ms, application-code: 31ms)
+ GET /login 200 in 56ms (next.js: 1215µs, application-code: 55ms)
+ GET /login 200 in 23ms (next.js: 1067µs, application-code: 22ms)
+ GET /login 200 in 23ms (next.js: 1028µs, application-code: 22ms)
+ GET /login 200 in 23ms (next.js: 1355µs, application-code: 22ms)
+ GET /login 200 in 28ms (next.js: 3ms, application-code: 26ms)
+ GET /login 200 in 22ms (next.js: 1103µs, application-code: 21ms)
+ GET /login 200 in 106ms (next.js: 14ms, application-code: 92ms)
+ GET /login 200 in 25ms (next.js: 1733µs, application-code: 23ms)
+✓ Compiled in 389ms
+ GET /login 200 in 487ms (next.js: 333ms, application-code: 154ms)
+ GET /login 200 in 25ms (next.js: 13ms, application-code: 12ms)
+ GET /login 200 in 185ms (next.js: 13ms, application-code: 172ms)
+✓ Compiled in 234ms
+ GET /dashboard 200 in 104ms (next.js: 62ms, application-code: 42ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 70ms (next.js: 10ms, application-code: 59ms)
+ GET /login 200 in 50ms (next.js: 1621µs, application-code: 48ms)
+ GET /dashboard 200 in 22ms (next.js: 5ms, application-code: 17ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 49ms (next.js: 3ms, application-code: 46ms)
+ GET /login 200 in 35ms (next.js: 2ms, application-code: 32ms)
+ GET /dashboard 200 in 22ms (next.js: 3ms, application-code: 20ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 45ms (next.js: 14ms, application-code: 31ms)
+ GET /dashboard 200 in 36ms (next.js: 5ms, application-code: 30ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 72ms (next.js: 8ms, application-code: 63ms)
+ GET /login 200 in 29ms (next.js: 1663µs, application-code: 27ms)
+ GET /dashboard 200 in 28ms (next.js: 6ms, application-code: 21ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 170ms (next.js: 10ms, application-code: 161ms)
+ GET /login 200 in 70ms (next.js: 4ms, application-code: 66ms)
+ GET /login 200 in 93ms (next.js: 28ms, application-code: 66ms)
+ GET /login 200 in 36ms (next.js: 3ms, application-code: 33ms)
+ GET /login 200 in 36ms (next.js: 2ms, application-code: 34ms)
+ GET /dashboard 200 in 46ms (next.js: 6ms, application-code: 40ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 31ms (next.js: 1296µs, application-code: 30ms)
+✓ Compiled in 289ms
+✓ Compiled in 312ms
+ GET /login 200 in 645ms (next.js: 281ms, application-code: 364ms)
+ GET /login 200 in 142ms (next.js: 31ms, application-code: 111ms)
+ GET /dashboard 200 in 75ms (next.js: 38ms, application-code: 37ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/generate 200 in 36ms (next.js: 20ms, application-code: 16ms)
+ GET /login 200 in 164ms (next.js: 4ms, application-code: 160ms)
+ GET /dashboard 200 in 114ms (next.js: 50ms, application-code: 64ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/generate 200 in 19ms (next.js: 6ms, application-code: 14ms)
+ GET /login 200 in 56ms (next.js: 21ms, application-code: 35ms)
+✓ Compiled in 623ms
+✓ Compiled in 186ms
+✓ Compiled in 169ms
+ GET /login 200 in 189ms (next.js: 69ms, application-code: 120ms)
+ GET /login 200 in 138ms (next.js: 22ms, application-code: 116ms)
+ GET /prem.jpeg 404 in 184ms (next.js: 90ms, application-code: 94ms)
+ GET /login 200 in 470ms (next.js: 78ms, application-code: 392ms)
+ GET /prem.jpeg 404 in 148ms (next.js: 37ms, application-code: 110ms)
+ GET /dashboard 200 in 1973ms (next.js: 109ms, application-code: 1864ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/generate 200 in 26ms (next.js: 11ms, application-code: 15ms)
+○ Compiling /dashboard/reports/[reportId] ...
+ GET /dashboard/reports/3500bc72-526c-4dc0-b21f-9dc404c236a5 200 in 6.3s (next.js: 6.3s, application-code: 34ms)
+ GET /login 200 in 78ms (next.js: 43ms, application-code: 35ms)
+ GET /login 200 in 49ms (next.js: 4ms, application-code: 45ms)
+ GET /login 200 in 254ms (next.js: 54ms, application-code: 199ms)
+✓ Compiled in 278ms
+ GET /login 200 in 152ms (next.js: 34ms, application-code: 118ms)
+ GET /dashboard 200 in 722ms (next.js: 216ms, application-code: 505ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/reports/3500bc72-526c-4dc0-b21f-9dc404c236a5 200 in 84ms (next.js: 38ms, application-code: 46ms)
+ GET /dashboard/compare 200 in 64ms (next.js: 44ms, application-code: 21ms)
+ GET /dashboard/analytics 200 in 63ms (next.js: 33ms, application-code: 30ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard 200 in 106ms (next.js: 42ms, application-code: 64ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 23ms (next.js: 2ms, application-code: 20ms)
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 200 in 78ms (next.js: 33ms, application-code: 45ms)
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 3.3s
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 1748ms (next.js: 1510ms, application-code: 238ms)
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 50ms (next.js: 19ms, application-code: 30ms)
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 15ms (next.js: 4ms, application-code: 11ms)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 26ms (next.js: 9ms, application-code: 17ms)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 85ms (next.js: 64ms, application-code: 21ms)
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 20ms (next.js: 8ms, application-code: 12ms)
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 38ms (next.js: 21ms, application-code: 17ms)
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 29ms (next.js: 16ms, application-code: 13ms)
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  [90m20 |[0m ...] = [33mWorker[0m ? [36mfunct...[0m
+  [90m21 |[0m ...
+[31m[1m>[0m [90m22 |[0m ...c + workerAdd, { e...
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...[36mnction[0m (e) { [36mretur.[0m..
+  [90m24 |[0m ...[36mfunction[0m (m) { [36mret...[0m
+  [90m25 |[0m ...[36mction[0m (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /dashboard/reports/cda842f8-2a9a-4d97-8e56-cebb75f78107 500 in 17ms (next.js: 8ms, application-code: 9ms)
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+ GET / 500 in 2.2s (next.js: 2.2s, application-code: 13ms)
+[browser] Uncaught Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./missionerp/frontend/node_modules/fflate/lib/node.cjs:22:13
+Module not found: Can't resolve <dynamic>
+  20 | ...] = Worker ? funct...
+  21 | ...
+> 22 | ...c + workerAdd, { e...
+     |    ^^^^^^^^^^^^^^^^^^^^^
+  23 | ...nction (e) { retur...
+  24 | ...function (m) { ret...
+  25 | ...ction (c) {
+
+Import trace:
+  Client Component SSR:
+    ./missionerp/frontend/node_modules/fflate/lib/node.cjs [Client Component SSR]
+    ./missionerp/frontend/node_modules/jspdf/dist/jspdf.node.min.js [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/reports/[reportId]/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+✓ Compiled in 699ms
+ GET / 200 in 722ms (next.js: 291ms, application-code: 431ms)
+ GET / 200 in 91ms (next.js: 31ms, application-code: 59ms)
+ GET /dashboard 200 in 418ms (next.js: 64ms, application-code: 353ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 115ms (next.js: 78ms, application-code: 37ms)
+ GET /dashboard/reports/6c227c0d-53be-4563-ab35-76b9ccbe269f 200 in 117ms (next.js: 74ms, application-code: 43ms)
+[browser] Error: Attempting to parse an unsupported color function "lab" (src/app/dashboard/reports/[reportId]/ReportDetailContent.tsx:109:21)
+[browser] Error: Attempting to parse an unsupported color function "lab" (src/app/dashboard/reports/[reportId]/ReportDetailContent.tsx:109:21)
+✓ Compiled in 301ms
+✓ Compiled in 481ms
+ GET /dashboard/reports/6c227c0d-53be-4563-ab35-76b9ccbe269f 200 in 256ms (next.js: 39ms, application-code: 218ms)
+ GET /dashboard/reports/6c227c0d-53be-4563-ab35-76b9ccbe269f 200 in 118ms (next.js: 40ms, application-code: 78ms)
+ GET /dashboard 200 in 88ms (next.js: 30ms, application-code: 59ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 41ms (next.js: 18ms, application-code: 24ms)
+ GET /dashboard/generate 200 in 132ms (next.js: 24ms, application-code: 108ms)
+ GET /dashboard/reports/e146ab0e-c74a-4422-8080-80b73a35070d 200 in 73ms (next.js: 31ms, application-code: 42ms)
+ GET /library 404 in 189ms (next.js: 90ms, application-code: 99ms)
+ GET / 200 in 34ms (next.js: 13ms, application-code: 22ms)
+ GET /dashboard 200 in 21ms (next.js: 4ms, application-code: 17ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 23ms (next.js: 5ms, application-code: 18ms)
+ GET /dashboard/reports/e278319e-f26a-4e86-a5be-eeaa9dec0b8f 200 in 63ms (next.js: 32ms, application-code: 31ms)
+ GET /dashboard/users 200 in 122ms (next.js: 73ms, application-code: 49ms)
+ GET /dashboard/analytics 200 in 58ms (next.js: 36ms, application-code: 22ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/compare 200 in 74ms (next.js: 48ms, application-code: 26ms)
+ GET /dashboard/reports 200 in 63ms (next.js: 35ms, application-code: 28ms)
+ GET /dashboard/reports/e278319e-f26a-4e86-a5be-eeaa9dec0b8f 200 in 26ms (next.js: 8ms, application-code: 18ms)
+✓ Compiled in 1205ms
+ GET /dashboard/reports/e278319e-f26a-4e86-a5be-eeaa9dec0b8f 200 in 223ms (next.js: 27ms, application-code: 196ms)
+✓ Compiled in 576ms
+ GET /dashboard/reports/e278319e-f26a-4e86-a5be-eeaa9dec0b8f 200 in 89ms (next.js: 31ms, application-code: 58ms)
+ GET /dashboard 200 in 90ms (next.js: 43ms, application-code: 48ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/generate 200 in 17ms (next.js: 5ms, application-code: 12ms)
+ GET /dashboard/generate 200 in 74ms (next.js: 23ms, application-code: 51ms)
+ GET /dashboard/reports/0258ef7f-d2c4-4a0d-8d65-35514a55f147 200 in 200ms (next.js: 127ms, application-code: 73ms)
+ GET /dashboard/reports/0258ef7f-d2c4-4a0d-8d65-35514a55f147 200 in 141ms (next.js: 40ms, application-code: 101ms)
+ GET /dashboard/generate 200 in 43ms (next.js: 9ms, application-code: 33ms)
+ GET /dashboard/reports/c880e412-31e7-4eb6-88d6-e331e5e5c045 200 in 76ms (next.js: 38ms, application-code: 39ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/generate 200 in 86ms (next.js: 30ms, application-code: 56ms)
+ GET /dashboard 200 in 43ms (next.js: 15ms, application-code: 28ms)
+ GET /login 200 in 61ms (next.js: 42ms, application-code: 20ms)
+ GET /dashboard 200 in 184ms (next.js: 63ms, application-code: 122ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+✓ Compiled in 690ms
+ GET /dashboard/generate 200 in 40ms (next.js: 14ms, application-code: 26ms)
+ GET /dashboard/compare 200 in 26ms (next.js: 11ms, application-code: 14ms)
+ GET /dashboard/reports 200 in 21ms (next.js: 7ms, application-code: 14ms)
+ GET /dashboard/reports 200 in 16ms (next.js: 3ms, application-code: 13ms)
+ GET /dashboard/generate 200 in 19ms (next.js: 4ms, application-code: 15ms)
+✓ Compiled in 86ms
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 77ms (next.js: 14ms, application-code: 63ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 103ms (next.js: 25ms, application-code: 78ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 61ms (next.js: 1952µs, application-code: 59ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 47ms (next.js: 3ms, application-code: 44ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 47ms (next.js: 1496µs, application-code: 45ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 54ms (next.js: 2ms, application-code: 51ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 58ms (next.js: 3ms, application-code: 55ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 51ms (next.js: 3ms, application-code: 48ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 71ms (next.js: 3ms, application-code: 68ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 67ms (next.js: 2ms, application-code: 65ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 50ms (next.js: 1905µs, application-code: 48ms)
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 28ms (next.js: 1531µs, application-code: 27ms)
+✓ Compiled in 304ms
+ GET /dashboard/reports/f310ca2b-03ab-4d12-9fb0-f53ddb62b42f 200 in 148ms (next.js: 57ms, application-code: 91ms)
+ GET /dashboard 200 in 27ms (next.js: 10ms, application-code: 17ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+✓ Compiled in 725ms
+✓ Compiled in 154ms
+ GET /dashboard 200 in 181ms (next.js: 28ms, application-code: 153ms)
+ GET /dashboard 200 in 142ms (next.js: 4ms, application-code: 138ms)
+ GET /dashboard 200 in 111ms (next.js: 15ms, application-code: 96ms)
+ GET /dashboard 200 in 172ms (next.js: 8ms, application-code: 164ms)
+ GET /dashboard 200 in 169ms (next.js: 5ms, application-code: 163ms)
+ GET /dashboard 200 in 165ms (next.js: 3ms, application-code: 162ms)
+ GET /dashboard 200 in 137ms (next.js: 9ms, application-code: 129ms)
+ GET /dashboard 200 in 87ms (next.js: 2ms, application-code: 85ms)
+[browser] ./missionerp/frontend/src/app/dashboard/layout.tsx:176:19
+Expected '</', got 'jsx text'
+  174 | ...                 ...
+  175 | ...               </...
+> 176 | ...       </div>
+      |                 ^^^^^^^
+> 177 | ...   </header>
+      |    ^^^^^^^^
+  178 | ...
+  179 | ...           {/* Ma...
+  180 | ...main className="f...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/dashboard/layout.tsx [Client Component Browser]
+    ./missionerp/frontend/src/app/dashboard/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./missionerp/frontend/src/app/dashboard/layout.tsx [Client Component SSR]
+    ./missionerp/frontend/src/app/dashboard/layout.tsx [Server Component] 
+ GET /dashboard 200 in 230ms (next.js: 11ms, application-code: 219ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 25ms (next.js: 8ms, application-code: 16ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports 200 in 22ms (next.js: 10ms, application-code: 12ms)
+ GET /dashboard/compare 200 in 24ms (next.js: 11ms, application-code: 13ms)
+ GET /dashboard/generate 200 in 18ms (next.js: 1837µs, application-code: 16ms)
+ GET /dashboard/settings 200 in 40ms (next.js: 24ms, application-code: 16ms)
+ GET /dashboard 200 in 18ms (next.js: 5ms, application-code: 13ms)
+✓ Compiled in 126ms
+✓ Compiled in 145ms
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard 200 in 104ms (next.js: 20ms, application-code: 84ms)
+ GET /dashboard/settings 200 in 28ms (next.js: 9ms, application-code: 19ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard 200 in 17ms (next.js: 5ms, application-code: 12ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 246ms (next.js: 180ms, application-code: 66ms)
+ GET /dashboard/reports 200 in 34ms (next.js: 14ms, application-code: 20ms)
+ GET /dashboard/compare 200 in 22ms (next.js: 10ms, application-code: 13ms)
+ GET /dashboard/analytics 200 in 30ms (next.js: 15ms, application-code: 15ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/users 200 in 24ms (next.js: 10ms, application-code: 14ms)
+ GET /dashboard/settings 200 in 22ms (next.js: 8ms, application-code: 14ms)
+ GET /dashboard 200 in 21ms (next.js: 5ms, application-code: 16ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /login 200 in 20ms (next.js: 8ms, application-code: 12ms)
+ GET /dashboard 200 in 22ms (next.js: 5ms, application-code: 17ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 40ms (next.js: 10ms, application-code: 30ms)
+ GET /dashboard/reports 200 in 22ms (next.js: 8ms, application-code: 14ms)
+ GET /dashboard/compare 200 in 21ms (next.js: 5ms, application-code: 16ms)
+ GET /dashboard/analytics 200 in 18ms (next.js: 4ms, application-code: 14ms)
+ GET /dashboard/users 200 in 18ms (next.js: 5ms, application-code: 13ms)
+ GET /dashboard 200 in 18ms (next.js: 5ms, application-code: 13ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 73ms (next.js: 26ms, application-code: 47ms)
+ GET /dashboard/reports 200 in 18ms (next.js: 6ms, application-code: 12ms)
+ GET /dashboard/reports 200 in 10ms (next.js: 5ms, application-code: 5ms)
+ GET /dashboard/reports 200 in 12ms (next.js: 1143µs, application-code: 11ms)
+ GET /dashboard 200 in 17ms (next.js: 4ms, application-code: 13ms)
+ GET /dashboard/users 200 in 19ms (next.js: 5ms, application-code: 15ms)
+ GET /dashboard/settings 200 in 16ms (next.js: 4ms, application-code: 12ms)
+ GET /dashboard/reports 200 in 15ms (next.js: 3ms, application-code: 12ms)
+ GET /dashboard/reports 200 in 79ms (next.js: 20ms, application-code: 59ms)
+ GET /dashboard/generate 200 in 39ms (next.js: 11ms, application-code: 28ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard 200 in 33ms (next.js: 5ms, application-code: 27ms)
+ GET /dashboard/generate 200 in 15ms (next.js: 3ms, application-code: 12ms)
+ GET /dashboard/reports 200 in 18ms (next.js: 5ms, application-code: 13ms)
+ GET /dashboard/compare 200 in 16ms (next.js: 4ms, application-code: 11ms)
+ GET /dashboard/analytics 200 in 17ms (next.js: 4ms, application-code: 13ms)
+ GET /dashboard/users 200 in 17ms (next.js: 5ms, application-code: 12ms)
+ GET /dashboard 200 in 15ms (next.js: 4ms, application-code: 10ms)
+ GET /login 200 in 16ms (next.js: 4ms, application-code: 12ms)
+✓ Compiled in 185ms
+ GET /login 200 in 112ms (next.js: 17ms, application-code: 95ms)
+ GET /login 200 in 39ms (next.js: 3ms, application-code: 37ms)
+ GET /login 200 in 110ms (next.js: 21ms, application-code: 89ms)
+✓ Compiled in 129ms
+ GET /login 200 in 147ms (next.js: 16ms, application-code: 131ms)
+ GET /login 200 in 82ms (next.js: 17ms, application-code: 65ms)
+ GET /login 200 in 35ms (next.js: 2ms, application-code: 32ms)
+ GET /login 200 in 54ms (next.js: 3ms, application-code: 52ms)
+ GET /login 200 in 37ms (next.js: 2ms, application-code: 35ms)
+✓ Compiled in 403ms
+✓ Compiled in 1ms
+ GET /login 200 in 1221ms (next.js: 972ms, application-code: 250ms)
+ GET /login 200 in 152ms (next.js: 7ms, application-code: 145ms)
+ GET /login 200 in 80ms (next.js: 1793µs, application-code: 78ms)
+ GET /login 200 in 84ms (next.js: 3ms, application-code: 81ms)
+ GET /login 200 in 95ms (next.js: 3ms, application-code: 92ms)
+ GET /login 200 in 107ms (next.js: 3ms, application-code: 105ms)
+ GET /login 200 in 114ms (next.js: 3ms, application-code: 112ms)
+ GET /login 200 in 107ms (next.js: 6ms, application-code: 102ms)
+ GET /login 200 in 105ms (next.js: 6ms, application-code: 99ms)
+ GET /login 200 in 108ms (next.js: 5ms, application-code: 103ms)
+ GET /login 200 in 115ms (next.js: 6ms, application-code: 108ms)
+ GET /login 200 in 120ms (next.js: 8ms, application-code: 113ms)
+ GET /login 200 in 113ms (next.js: 4ms, application-code: 109ms)
+ GET /login 200 in 124ms (next.js: 9ms, application-code: 116ms)
+ GET /login 200 in 127ms (next.js: 3ms, application-code: 124ms)
+ GET /login 200 in 126ms (next.js: 7ms, application-code: 118ms)
+ GET /login 200 in 106ms (next.js: 3ms, application-code: 103ms)
+ GET /login 200 in 91ms (next.js: 4ms, application-code: 86ms)
+ GET /login 200 in 80ms (next.js: 5ms, application-code: 75ms)
+ GET /login 200 in 61ms (next.js: 5ms, application-code: 56ms)
+ GET /login 200 in 55ms (next.js: 4ms, application-code: 51ms)
+ GET /login 200 in 54ms (next.js: 1715µs, application-code: 52ms)
+ GET /login 200 in 54ms (next.js: 3ms, application-code: 51ms)
+ GET /login 200 in 52ms (next.js: 3ms, application-code: 49ms)
+ GET /login 200 in 83ms (next.js: 2ms, application-code: 81ms)
+ GET /login 200 in 67ms (next.js: 2ms, application-code: 65ms)
+ GET /login 200 in 51ms (next.js: 1145µs, application-code: 50ms)
+ GET /login 200 in 35ms (next.js: 4ms, application-code: 30ms)
+○ Compiling /contributors ...
+ GET /contributors 200 in 3.5s (next.js: 3.4s, application-code: 83ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 27ms (next.js: 7ms, application-code: 21ms)
+ GET /dashboard 200 in 149ms (next.js: 107ms, application-code: 43ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /login 200 in 41ms (next.js: 12ms, application-code: 29ms)
+ GET /dashboard 200 in 72ms (next.js: 30ms, application-code: 43ms)
+ GET /dashboard/generate 200 in 71ms (next.js: 53ms, application-code: 18ms)
+ GET /dashboard/reports 200 in 38ms (next.js: 24ms, application-code: 13ms)
+ GET /dashboard/compare 200 in 55ms (next.js: 38ms, application-code: 17ms)
+ GET /dashboard/analytics 200 in 47ms (next.js: 29ms, application-code: 17ms)
+ GET /dashboard/settings 200 in 40ms (next.js: 23ms, application-code: 17ms)
+ GET /dashboard 200 in 109ms (next.js: 39ms, application-code: 70ms)
+ GET /login 200 in 37ms (next.js: 13ms, application-code: 24ms)
+ GET /login 200 in 65ms (next.js: 28ms, application-code: 36ms)
+ GET /login 200 in 19ms (next.js: 6ms, application-code: 13ms)
+ GET /dashboard 200 in 149ms (next.js: 36ms, application-code: 113ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET / 200 in 575ms (next.js: 121ms, application-code: 454ms)
+ GET /dashboard 200 in 23ms (next.js: 6ms, application-code: 17ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+✓ Compiled in 280ms
+✓ Compiled in 0ms
+ GET /dashboard 200 in 490ms (next.js: 348ms, application-code: 142ms)
+ GET /dashboard 200 in 124ms (next.js: 5ms, application-code: 119ms)
+ GET /dashboard 200 in 93ms (next.js: 9ms, application-code: 84ms)
+ GET /dashboard 200 in 65ms (next.js: 11ms, application-code: 54ms)
+ GET /dashboard 200 in 59ms (next.js: 1909µs, application-code: 57ms)
+ GET /dashboard 200 in 64ms (next.js: 2ms, application-code: 62ms)
+ GET /dashboard 200 in 65ms (next.js: 2ms, application-code: 63ms)
+ GET /dashboard 200 in 68ms (next.js: 5ms, application-code: 63ms)
+ GET /dashboard 200 in 61ms (next.js: 2ms, application-code: 59ms)
+ GET /dashboard 200 in 44ms (next.js: 1596µs, application-code: 43ms)
+ GET /dashboard 200 in 49ms (next.js: 2ms, application-code: 47ms)
+ GET /dashboard 200 in 48ms (next.js: 3ms, application-code: 46ms)
+ GET /dashboard 200 in 52ms (next.js: 1177µs, application-code: 51ms)
+ GET /dashboard 200 in 64ms (next.js: 1299µs, application-code: 63ms)
+ GET /dashboard 200 in 66ms (next.js: 2ms, application-code: 63ms)
+ GET /dashboard 200 in 58ms (next.js: 3ms, application-code: 55ms)
+ GET /dashboard 200 in 53ms (next.js: 1428µs, application-code: 52ms)
+ GET /dashboard 200 in 45ms (next.js: 1749µs, application-code: 44ms)
+ GET /dashboard 200 in 47ms (next.js: 1181µs, application-code: 46ms)
+ GET /dashboard 200 in 47ms (next.js: 1385µs, application-code: 46ms)
+ GET /dashboard 200 in 51ms (next.js: 1165µs, application-code: 49ms)
+ GET /dashboard 200 in 35ms (next.js: 1174µs, application-code: 34ms)
+ GET /dashboard 200 in 33ms (next.js: 1357µs, application-code: 31ms)
+ GET /dashboard 200 in 38ms (next.js: 1255µs, application-code: 37ms)
+ GET /dashboard 200 in 38ms (next.js: 2ms, application-code: 36ms)
+ GET /dashboard 200 in 39ms (next.js: 1034µs, application-code: 38ms)
+ GET /dashboard 200 in 44ms (next.js: 1495µs, application-code: 42ms)
+ GET /dashboard 200 in 42ms (next.js: 1209µs, application-code: 41ms)
+ GET /dashboard 200 in 29ms (next.js: 1278µs, application-code: 27ms)
+ GET /dashboard 200 in 13ms (next.js: 1102µs, application-code: 12ms)
+ GET /dashboard 200 in 215ms (next.js: 133ms, application-code: 82ms)
+ GET /dashboard 200 in 104ms (next.js: 91ms, application-code: 13ms)
+ GET /dashboard 200 in 47ms (next.js: 1574µs, application-code: 46ms)
+ GET /dashboard 200 in 39ms (next.js: 1420µs, application-code: 37ms)
+ GET /dashboard 200 in 52ms (next.js: 1185µs, application-code: 51ms)
+ GET /dashboard 200 in 48ms (next.js: 1938µs, application-code: 46ms)
+ GET /dashboard 200 in 46ms (next.js: 1123µs, application-code: 45ms)
+ GET /dashboard 200 in 44ms (next.js: 1585µs, application-code: 43ms)
+ GET /dashboard 200 in 41ms (next.js: 1656µs, application-code: 39ms)
+ GET /dashboard 200 in 42ms (next.js: 1474µs, application-code: 40ms)
+ GET /dashboard 200 in 49ms (next.js: 1133µs, application-code: 48ms)
+ GET /dashboard 200 in 54ms (next.js: 1511µs, application-code: 53ms)
+ GET /dashboard 200 in 67ms (next.js: 1613µs, application-code: 65ms)
+ GET /dashboard 200 in 60ms (next.js: 1333µs, application-code: 59ms)
+ GET /dashboard 200 in 56ms (next.js: 8ms, application-code: 48ms)
+ GET /dashboard 200 in 44ms (next.js: 1582µs, application-code: 42ms)
+ GET /dashboard 200 in 44ms (next.js: 1522µs, application-code: 43ms)
+ GET /dashboard 200 in 42ms (next.js: 1301µs, application-code: 41ms)
+ GET /dashboard 200 in 45ms (next.js: 2ms, application-code: 42ms)
+ GET /dashboard 200 in 46ms (next.js: 1432µs, application-code: 44ms)
+ GET /dashboard 200 in 32ms (next.js: 1313µs, application-code: 31ms)
+ GET /dashboard 200 in 17ms (next.js: 1306µs, application-code: 16ms)
+ GET /dashboard 200 in 32ms (next.js: 1598µs, application-code: 31ms)
+ GET /dashboard 200 in 17ms (next.js: 1246µs, application-code: 16ms)
+ GET /dashboard 200 in 53ms (next.js: 2ms, application-code: 51ms)
+ GET /dashboard 200 in 47ms (next.js: 1087µs, application-code: 46ms)
+ GET /dashboard 200 in 50ms (next.js: 1855µs, application-code: 48ms)
+✓ Compiled in 158ms
+ GET /dashboard 200 in 90ms (next.js: 1106µs, application-code: 89ms)
+ GET /dashboard 200 in 99ms (next.js: 3ms, application-code: 97ms)
+ GET /dashboard 200 in 102ms (next.js: 1943µs, application-code: 100ms)
+ GET /dashboard 200 in 48ms (next.js: 3ms, application-code: 45ms)
+ GET /dashboard 200 in 24ms (next.js: 3ms, application-code: 20ms)
+ GET /dashboard 200 in 365ms (next.js: 15ms, application-code: 350ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 119ms (next.js: 69ms, application-code: 51ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+✓ Compiled in 320ms
+ GET /dashboard/generate 200 in 179ms (next.js: 107ms, application-code: 73ms)
+ GET /dashboard 200 in 83ms (next.js: 49ms, application-code: 34ms)
+ GET /dashboard 200 in 334ms (next.js: 3ms, application-code: 331ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 53ms (next.js: 13ms, application-code: 40ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/compare 200 in 64ms (next.js: 34ms, application-code: 30ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/compare 200 in 318ms (next.js: 19ms, application-code: 299ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard 200 in 35ms (next.js: 12ms, application-code: 24ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate?type=session 200 in 33ms (next.js: 8ms, application-code: 26ms)
+ GET /dashboard/reports/20cb2138-672d-42a1-bdc0-d2ba57d6e8a3 200 in 196ms (next.js: 132ms, application-code: 63ms)
+ GET /dashboard/generate?type=session 200 in 93ms (next.js: 21ms, application-code: 72ms)
+ GET /dashboard/reports/609c131f-0178-491a-b1cc-11fe1c6330fe 200 in 60ms (next.js: 21ms, application-code: 38ms)
+ GET /dashboard/reports/1ab7e30c-6938-40a4-a92d-24025ee1ed8f 200 in 239ms (next.js: 104ms, application-code: 135ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 352ms (next.js: 120ms, application-code: 232ms)
+ GET /login 200 in 127ms (next.js: 67ms, application-code: 60ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET / 200 in 140ms (next.js: 43ms, application-code: 97ms)
+ GET /login 200 in 24ms (next.js: 7ms, application-code: 17ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports/1ab7e30c-6938-40a4-a92d-24025ee1ed8f 200 in 184ms (next.js: 82ms, application-code: 102ms)
+ GET /dashboard/reports/1ab7e30c-6938-40a4-a92d-24025ee1ed8f 200 in 97ms (next.js: 17ms, application-code: 80ms)
+ GET /dashboard/generate 200 in 33ms (next.js: 12ms, application-code: 21ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports/ced7d795-38ad-44b2-bda3-488bee5f518f 200 in 124ms (next.js: 61ms, application-code: 63ms)
+ GET /dashboard 200 in 85ms (next.js: 37ms, application-code: 48ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard 200 in 85ms (next.js: 16ms, application-code: 69ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 22ms (next.js: 4ms, application-code: 18ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports/efc4bf07-bc30-4382-bf18-f96b5923ec3d 200 in 82ms (next.js: 24ms, application-code: 58ms)
+ GET /dashboard 200 in 83ms (next.js: 29ms, application-code: 54ms)
+ GET /login 200 in 34ms (next.js: 11ms, application-code: 22ms)
+ GET /login 200 in 97ms (next.js: 6ms, application-code: 91ms)
+ GET /dashboard/reports/efc4bf07-bc30-4382-bf18-f96b5923ec3d 200 in 30ms (next.js: 9ms, application-code: 21ms)
+ GET /login 200 in 33ms (next.js: 4ms, application-code: 29ms)
+ GET /login 200 in 18ms (next.js: 1785µs, application-code: 16ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard 200 in 87ms (next.js: 31ms, application-code: 55ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/reports/efc4bf07-bc30-4382-bf18-f96b5923ec3d 200 in 45ms (next.js: 27ms, application-code: 18ms)
+ GET /dashboard 200 in 296ms (next.js: 119ms, application-code: 177ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/reports/efc4bf07-bc30-4382-bf18-f96b5923ec3d 200 in 60ms (next.js: 31ms, application-code: 29ms)
+ GET /dashboard 200 in 79ms (next.js: 26ms, application-code: 53ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 55ms (next.js: 13ms, application-code: 42ms)
+ GET /dashboard/reports/ffc5d35f-9fdd-411b-b072-209e4c6d08b5 200 in 80ms (next.js: 33ms, application-code: 47ms)
+ GET /dashboard/reports/ffc5d35f-9fdd-411b-b072-209e4c6d08b5 200 in 257ms (next.js: 34ms, application-code: 223ms)
+ GET /dashboard/generate 200 in 125ms (next.js: 4ms, application-code: 121ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/compare 200 in 26ms (next.js: 12ms, application-code: 14ms)
+ GET /dashboard/reports 200 in 74ms (next.js: 48ms, application-code: 26ms)
+ GET /dashboard/reports/efc4bf07-bc30-4382-bf18-f96b5923ec3d 200 in 26ms (next.js: 8ms, application-code: 18ms)
+ GET /login 200 in 120ms (next.js: 37ms, application-code: 83ms)
+ GET /dashboard 200 in 121ms (next.js: 53ms, application-code: 67ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 86ms (next.js: 41ms, application-code: 45ms)
+ GET /dashboard/reports 200 in 21ms (next.js: 6ms, application-code: 15ms)
+ GET /dashboard/compare 200 in 37ms (next.js: 10ms, application-code: 27ms)
+ GET /dashboard/analytics 200 in 99ms (next.js: 78ms, application-code: 22ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/users 200 in 85ms (next.js: 51ms, application-code: 35ms)
+ GET /dashboard/settings 200 in 72ms (next.js: 46ms, application-code: 26ms)
+ GET /dashboard 200 in 23ms (next.js: 5ms, application-code: 18ms)
+ GET /dashboard/generate 200 in 33ms (next.js: 4ms, application-code: 28ms)
+ GET /dashboard/reports/9305988d-10f5-44c5-b379-dd9605fddefa 200 in 62ms (next.js: 30ms, application-code: 32ms)
+ GET /dashboard 200 in 57ms (next.js: 17ms, application-code: 40ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/settings 200 in 22ms (next.js: 7ms, application-code: 15ms)
+ GET /dashboard 200 in 16ms (next.js: 3ms, application-code: 13ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 21ms (next.js: 4ms, application-code: 16ms)
+ GET /dashboard/reports 200 in 19ms (next.js: 5ms, application-code: 14ms)
+ GET /dashboard 200 in 18ms (next.js: 2ms, application-code: 15ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/analytics 200 in 20ms (next.js: 5ms, application-code: 14ms)
+ GET /dashboard/generate 200 in 16ms (next.js: 2ms, application-code: 13ms)
+ GET /dashboard 200 in 16ms (next.js: 3ms, application-code: 13ms)
+ GET /dashboard/reports 200 in 18ms (next.js: 2ms, application-code: 16ms)
+ GET /dashboard/generate 200 in 12ms (next.js: 1244µs, application-code: 11ms)
+ GET /dashboard 200 in 16ms (next.js: 3ms, application-code: 13ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 18ms (next.js: 5ms, application-code: 13ms)
+ GET /dashboard 200 in 67ms (next.js: 25ms, application-code: 41ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard 200 in 111ms (next.js: 31ms, application-code: 81ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard 200 in 20ms (next.js: 8ms, application-code: 12ms)
+ GET /dashboard 200 in 25ms (next.js: 1631µs, application-code: 23ms)
+ GET /dashboard/generate 200 in 19ms (next.js: 4ms, application-code: 14ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /dashboard/reports 200 in 15ms (next.js: 3ms, application-code: 12ms)
+ GET /dashboard/compare 200 in 53ms (next.js: 5ms, application-code: 48ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/generate 200 in 78ms (next.js: 25ms, application-code: 53ms)
+ GET /dashboard/reports/f00d7cae-a250-4911-b1df-097ff33f4ac9 200 in 88ms (next.js: 47ms, application-code: 41ms)
+ GET /dashboard/compare 200 in 138ms (next.js: 52ms, application-code: 87ms)
+ GET /dashboard 200 in 19ms (next.js: 3ms, application-code: 16ms)
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[browser] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+ GET /dashboard/settings 200 in 71ms (next.js: 18ms, application-code: 53ms)
+✓ Compiled in 493ms
+✓ Compiled in 898ms
+✓ Compiled in 469ms
+✓ Compiled in 372ms
+ GET /dashboard/settings 200 in 88ms (next.js: 22ms, application-code: 66ms)

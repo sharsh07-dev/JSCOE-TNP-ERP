@@ -1,0 +1,492 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.151.154:3000
+- Environments: .env.local
+✓ Ready in 581ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/harshshinde/Downloads/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/harshshinde/Downloads/missionerp/frontend/package-lock.json
+
+
+ GET /login 200 in 2.5s (next.js: 2.3s, application-code: 165ms)
+✓ Compiled in 164ms
+✓ Compiled in 159ms
+[browser] ./missionerp/frontend/src/app/globals.css:1963:9
+Parsing CSS source code failed
+  1961 |   background-color:...
+  1962 | }
+> 1963 | textarea@utility in...
+       |         ^
+  1964 |   resize: vertical;
+  1965 |   min-height: 120px;
+  1966 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1963:9
+  1961 |   background-color:...
+  1962 | }
+> 1963 | textarea@utility in...
+       |         ^
+  1964 |   resize: vertical;
+  1965 |   min-height: 120px;
+  1966 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1963:9
+Parsing CSS source code failed
+  1961 |   background-color:...
+  1962 | }
+> 1963 | textarea@utility in...
+       |         ^
+  1964 |   resize: vertical;
+  1965 |   min-height: 120px;
+  1966 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1963:9
+  1961 |   background-color:...
+  1962 | }
+> 1963 | textarea@utility in...
+       |         ^
+  1964 |   resize: vertical;
+  1965 |   min-height: 120px;
+  1966 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1963:9
+Parsing CSS source code failed
+  1961 |   background-color:...
+  1962 | }
+> 1963 | textarea@utility in...
+       |         ^
+  1964 |   resize: vertical;
+  1965 |   min-height: 120px;
+  1966 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1963:9
+  1961 |   background-color:...
+  1962 | }
+> 1963 | textarea@utility in...
+       |         ^
+  1964 |   resize: vertical;
+  1965 |   min-height: 120px;
+  1966 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+✓ Compiled in 132ms
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+⨯ ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  [90m1976 |[0m   background-color:.[36m..[0m
+  [90m1977 |[0m }
+[31m[1m>[0m [90m1978 |[0m textarea@utility in...
+  [90m     |[0m         [31m[1m^[0m
+  [90m1979 |[0m   resize: vertical;
+  [90m1980 |[0m   min-height: [35m120[0mpx;
+  [90m1981 |[0m }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  [90m1976 |[0m   background-color:.[36m..[0m
+  [90m1977 |[0m }
+[31m[1m>[0m [90m1978 |[0m textarea@utility in...
+  [90m     |[0m         [31m[1m^[0m
+  [90m1979 |[0m   resize: vertical;
+  [90m1980 |[0m   min-height: [35m120[0mpx;
+  [90m1981 |[0m }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component]
+
+
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+ GET /login 500 in 1216ms (next.js: 1075ms, application-code: 140ms)
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] Uncaught Error: ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component]
+
+
+    at <unknown> (Error: ./missionerp/frontend/src/app/globals.css:1978:9)
+    at <unknown> (./missionerp/frontend/src/app/globals.css:1978:9)
+    at <unknown> (Error: (./missionerp/frontend/src/app/globals.css:1978:9)
+    at <unknown> (./missionerp/frontend/src/app/globals.css:1978:9)
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+⨯ ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  [90m1976 |[0m   background-color:.[36m..[0m
+  [90m1977 |[0m }
+[31m[1m>[0m [90m1978 |[0m textarea@utility in...
+  [90m     |[0m         [31m[1m^[0m
+  [90m1979 |[0m   resize: vertical;
+  [90m1980 |[0m   min-height: [35m120[0mpx;
+  [90m1981 |[0m }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  [90m1976 |[0m   background-color:.[36m..[0m
+  [90m1977 |[0m }
+[31m[1m>[0m [90m1978 |[0m textarea@utility in...
+  [90m     |[0m         [31m[1m^[0m
+  [90m1979 |[0m   resize: vertical;
+  [90m1980 |[0m   min-height: [35m120[0mpx;
+  [90m1981 |[0m }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component]
+
+
+ GET / 500 in 577ms (next.js: 563ms, application-code: 13ms)
+[browser] Uncaught Error: ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component]
+
+
+    at <unknown> (Error: ./missionerp/frontend/src/app/globals.css:1978:9)
+    at <unknown> (./missionerp/frontend/src/app/globals.css:1978:9)
+    at <unknown> (Error: (./missionerp/frontend/src/app/globals.css:1978:9)
+    at <unknown> (./missionerp/frontend/src/app/globals.css:1978:9)
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+[browser] ./missionerp/frontend/src/app/globals.css:1978:9
+Parsing CSS source code failed
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Unexpected token AtKeyword("utility")
+
+Generated code of PostCSS transform of file content of missionerp/frontend/src/app/globals.css:
+./missionerp/frontend/src/app/globals.css:1978:9
+  1976 |   background-color:...
+  1977 | }
+> 1978 | textarea@utility in...
+       |         ^
+  1979 |   resize: vertical;
+  1980 |   min-height: 120px;
+  1981 | }
+
+Import trace:
+  Client Component Browser:
+    ./missionerp/frontend/src/app/globals.css [Client Component Browser]
+    ./missionerp/frontend/src/app/layout.tsx [Server Component] 
+✓ Compiled in 179ms
+ GET / 200 in 122ms (next.js: 40ms, application-code: 82ms)
+ GET /login 200 in 31ms (next.js: 11ms, application-code: 21ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /login 200 in 51ms (next.js: 8ms, application-code: 44ms)
+ GET /login 200 in 39ms (next.js: 4ms, application-code: 35ms)
+ GET /login 200 in 51ms (next.js: 3ms, application-code: 48ms)
+ GET /login 200 in 30ms (next.js: 3ms, application-code: 27ms)
+  Reload env: .env.local
+✓ Compiled in 304ms
+ GET /login 200 in 354ms (next.js: 226ms, application-code: 128ms)

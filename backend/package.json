@@ -1,0 +1,40 @@
+{
+  "name": "tnp-erp-backend",
+  "version": "1.0.0",
+  "description": "TNP Cell ERP System - Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.5.1",
+    "chartjs-node-canvas": "^5.0.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "cors": "^2.8.5",
+    "docx": "^9.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.1",
+    "groq-sdk": "^0.11.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^8.0.3",
+    "pdfkit": "^0.18.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [
+    "tnp",
+    "erp",
+    "placement",
+    "training"
+  ],
+  "author": "TNP Cell",
+  "license": "MIT"
+}
