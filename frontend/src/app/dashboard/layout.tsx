@@ -137,26 +137,25 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                     {/* Mobile menu button — overlaid top-left */}
                     <button
                         onClick={() => setSidebarOpen(true)}
-                        className="lg:hidden absolute left-2 top-1/2 -translate-y-1/2 p-2 rounded-lg text-white/90 hover:bg-black/20 transition-colors"
-                        style={{ zIndex: 1 }}
+                        className="lg:hidden absolute left-3 top-1/2 -translate-y-1/2 p-2 rounded-xl text-white bg-black/30 backdrop-blur-md border border-white/20 hover:bg-black/40 transition-all z-20"
                     >
-                        <Menu size={22} />
+                        <Menu size={20} />
                     </button>
                     {/* Bell + Avatar — overlaid top-right, z-index above image */}
                     <div className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-3" style={{ zIndex: 1 }}>
-                        <button className="relative w-9 h-9 rounded-full flex items-center justify-center text-white/90 hover:bg-black/20 transition-colors">
-                            <Bell size={18} />
-                            <span className="absolute top-2 right-2 w-2 h-2 bg-red-400 rounded-full border border-blue-600" />
+                        <button className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center text-white bg-black/20 hover:bg-black/30 transition-colors">
+                            <Bell size={16} className="sm:size-[18px]" />
+                            <span className="absolute top-1.5 right-1.5 sm:top-2 sm:right-2 w-2 h-2 bg-red-400 rounded-full border border-blue-600" />
                         </button>
 
                         {/* User Avatar */}
                         <div className="relative">
-                            <button
-                                onClick={() => setProfileOpen(!profileOpen)}
-                                className="w-8 h-8 rounded-full bg-white text-blue-600 flex items-center justify-center font-bold text-sm shadow-sm ml-2"
-                            >
-                                {user?.name?.[0]?.toUpperCase()}
-                            </button>
+                                <button
+                                    onClick={() => setProfileOpen(!profileOpen)}
+                                    className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white text-blue-600 flex items-center justify-center font-bold text-xs sm:text-sm shadow-md ml-1 sm:ml-2 hover:scale-105 transition-transform"
+                                >
+                                    {user?.name?.[0]?.toUpperCase()}
+                                </button>
 
                             {profileOpen && (
                                 <div className="absolute right-0 top-12 bg-white border border-slate-200 rounded-xl shadow-2xl p-2 z-[200] w-56 animate-fade-in origin-top-right">

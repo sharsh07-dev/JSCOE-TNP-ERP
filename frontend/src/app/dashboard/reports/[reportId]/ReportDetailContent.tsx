@@ -195,7 +195,7 @@ const Section = ({
                 </div>
                 {open ? <ChevronUp size={20} className="text-slate-400" /> : <ChevronDown size={20} className="text-slate-400" />}
             </button>
-            {open && <div className="p-8 animate-fade-in">{children}</div>}
+            {open && <div className="p-4 sm:p-8 animate-fade-in">{children}</div>}
         </div>
     );
 };
@@ -300,8 +300,8 @@ export function ReportDetailContent() {
     return (
         <div className="max-w-5xl mx-auto space-y-8 animate-fade-in pb-20 font-sans">
             {/* Header Area */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 pb-4 border-b border-slate-200">
-                <div className="flex items-center gap-5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 sm:gap-6 pb-6 sm:pb-4 border-b border-slate-200">
+                <div className="flex items-center gap-4 sm:gap-5">
                     <button
                         onClick={() => router.back()}
                         className="w-10 h-10 border border-slate-200 flex items-center justify-center rounded-xl bg-white text-slate-400 hover:text-blue-600 hover:border-blue-200 hover:shadow-sm transition-all shadow-sm"
@@ -319,27 +319,27 @@ export function ReportDetailContent() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap items-center gap-4">
+                <div className="flex flex-row items-center gap-2 sm:gap-4 w-full sm:w-auto">
                     <button
                         onClick={handleDownloadDocx}
                         disabled={downloading}
-                        className="bg-slate-800 hover:bg-slate-900 text-white font-extrabold px-6 py-3.5 rounded-xl shadow-lg transition-all flex items-center gap-2"
+                        className="flex-1 sm:flex-none bg-slate-800 hover:bg-slate-900 text-white font-extrabold px-4 sm:px-6 py-3 sm:py-3.5 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
                     >
                         {downloading ? (
-                            <><Loader2 size={18} className="animate-spin" /> ...</>
+                            <><Loader2 size={16} className="animate-spin" /> ...</>
                         ) : (
-                            <><FileText size={18} /> DOCX</>
+                            <><FileText size={16} /> DOCX</>
                         )}
                     </button>
                     <button
                         onClick={handleDownloadPDF}
                         disabled={downloading}
-                        className="bg-blue-600 hover:bg-blue-700 text-white font-extrabold px-8 py-3.5 rounded-xl shadow-lg shadow-blue-600/20 transition-all flex items-center gap-2"
+                        className="flex-1 sm:flex-none bg-blue-600 hover:bg-blue-700 text-white font-extrabold px-4 sm:px-8 py-3 sm:py-3.5 rounded-xl shadow-lg shadow-blue-600/20 transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
                     >
                         {downloading ? (
-                            <><Loader2 size={18} className="animate-spin" /> Finalizing PDF...</>
+                            <><Loader2 size={16} className="animate-spin" /> ...</>
                         ) : (
-                            <><Download size={18} /> Download PDF Report</>
+                            <><Download size={16} /> PDF</>
                         )}
                     </button>
                 </div>
@@ -363,14 +363,14 @@ export function ReportDetailContent() {
                             </div>
                         </div>
 
-                        <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 relative z-10">
-                            <div className="col-span-2 lg:col-span-1 border-r-2 border-amber-200/50 pr-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 relative z-10">
+                            <div className="col-span-2 sm:col-span-1 border-b-2 sm:border-b-0 sm:border-r-2 border-amber-200/50 pb-4 sm:pb-0 sm:pr-4">
                                 {/* Score — always 0-100 % */}
                                 <div className="flex items-end gap-1 leading-none">
-                                    <span className="text-[56px] font-black text-amber-900 leading-none">
+                                    <span className="text-[44px] sm:text-[56px] font-black text-amber-900 leading-none">
                                         {Math.min(100, Math.round(d.kpiScore.overallScore || 0))}
                                     </span>
-                                    <span className="text-[24px] text-amber-600/50 font-bold mb-2">%</span>
+                                    <span className="text-[20px] sm:text-[24px] text-amber-600/50 font-bold mb-1 sm:mb-2">%</span>
                                 </div>
                                 {/* Progress bar */}
                                 <div className="w-full h-2 bg-amber-200 rounded-full overflow-hidden my-2">
@@ -379,17 +379,17 @@ export function ReportDetailContent() {
                                         style={{ width: `${Math.min(100, d.kpiScore.overallScore || 0)}%` }}
                                     />
                                 </div>
-                                <div className="mt-2 inline-block px-4 py-1.5 bg-amber-900 text-white text-sm font-black rounded-lg">
+                                <div className="mt-2 inline-block px-3 sm:px-4 py-1.5 bg-amber-900 text-white text-[11px] sm:text-sm font-black rounded-lg">
                                     GRADE: {d.kpiScore.grade}
                                 </div>
                             </div>
                             {Object.entries(d.kpiScore.breakdown || {}).map(([key, val]: any) => (
-                                <div key={key} className="flex flex-col justify-center">
-                                    <div className="text-2xl font-black text-amber-900 leading-none">
+                                <div key={key} className="flex flex-col justify-center border-r border-amber-200/30 sm:border-r-0 pr-2 sm:pr-0">
+                                    <div className="text-xl sm:text-2xl font-black text-amber-900 leading-none">
                                         {Math.min(100, Math.round(Number(val) || 0))}
-                                        <span className="text-sm text-amber-600/50 font-bold">%</span>
+                                        <span className="text-[11px] sm:text-sm text-amber-600/50 font-bold ml-0.5">%</span>
                                     </div>
-                                    <div className="text-[10px] font-bold text-amber-700 uppercase tracking-widest mt-2">{key.replace(/([A-Z])/g, ' $1')}</div>
+                                    <div className="text-[10px] font-bold text-amber-700 uppercase tracking-[0.05em] sm:tracking-widest mt-2">{key.replace(/([A-Z])/g, ' $1')}</div>
                                 </div>
                             ))}
                         </div>

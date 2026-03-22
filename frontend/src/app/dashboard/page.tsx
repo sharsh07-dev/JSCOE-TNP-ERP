@@ -86,10 +86,10 @@ export default function DashboardHome() {
     return (
         <div className="animate-fade-in pb-12 font-sans">
             {/* Page Header Area */}
-            <div className="flex flex-col mb-8">
-                <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">System Overview</h1>
-                <p className="text-[15px] font-medium text-slate-500 mt-1">
-                    View your organizational reports, drive statistics, and recent activity records.
+            <div className="flex flex-col mb-8 p-1 sm:p-0">
+                <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-800 tracking-tight">System Overview</h1>
+                <p className="text-[14px] sm:text-[15px] font-medium text-slate-500 mt-1">
+                    Manage organizational reports, drive statistics, and recent activity records.
                 </p>
             </div>
 
@@ -141,7 +141,7 @@ export default function DashboardHome() {
             </div>
 
             {/* 4 Cards Grid Layout */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-8 w-full">
                 {/* Card 1 */}
                 <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between">
                     <div className="flex justify-between items-start mb-4 text-slate-500">
@@ -210,10 +210,10 @@ export default function DashboardHome() {
             {/* Charts & Distribution (2 Columns) */}
             <div className="grid xl:grid-cols-2 gap-8 mb-8">
                 {/* Left Column: Line/Bar Chart Box */}
-                <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-8 flex flex-col min-h-[420px]">
-                    <div className="text-center mb-8">
-                        <h2 className="text-lg font-extrabold text-slate-800">Reports Trajectory</h2>
-                        <p className="text-[13px] font-medium text-slate-500">Monthly document generations</p>
+                <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-4 sm:p-8 flex flex-col min-h-[360px] sm:min-h-[420px]">
+                    <div className="text-center mb-6 sm:mb-8">
+                        <h2 className="text-base sm:text-lg font-extrabold text-slate-800">Reports Trajectory</h2>
+                        <p className="text-[12px] sm:text-[13px] font-medium text-slate-500">Monthly generations</p>
                     </div>
 
                     <div className="flex-1 relative w-full h-[280px]">
@@ -267,10 +267,10 @@ export default function DashboardHome() {
                 </div>
 
                 {/* Right Column: Pie Chart Box */}
-                <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-8 flex flex-col min-h-[420px]">
-                    <div className="text-center mb-6">
-                        <h2 className="text-lg font-extrabold text-slate-800">Report Distribution</h2>
-                        <p className="text-[13px] font-medium text-slate-500">Breakdown by report format</p>
+                <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-4 sm:p-8 flex flex-col min-h-[360px] sm:min-h-[420px]">
+                    <div className="text-center mb-4 sm:mb-6">
+                        <h2 className="text-base sm:text-lg font-extrabold text-slate-800">Report Distribution</h2>
+                        <p className="text-[12px] sm:text-[13px] font-medium text-slate-500">Registry breakdown</p>
                     </div>
 
                     <div className="flex-1 relative flex items-center justify-center h-[280px]">

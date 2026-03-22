@@ -39,7 +39,7 @@ export default function SignupPage() {
                 <div className="max-w-full mx-auto">
                     <img
                         src="/header.png"
-                        className="w-full h-auto max-h-[100px] object-fill"
+                        className="w-full h-auto max-h-[60px] sm:max-h-[100px] object-contain sm:object-fill"
                         alt="JSCOE Institutional Header"
                     />
                 </div>
@@ -49,7 +49,7 @@ export default function SignupPage() {
             <div className="flex-1 relative flex items-start justify-center pt-12 pb-10 px-6 lg:px-12">
                 {/* Background Image with Blur Overlay */}
                 <div className="absolute inset-0 opacity-40 z-0 bg-cover bg-center bg-fixed brightness-[0.3]" style={{ backgroundImage: "url('/background.jpg')" }}>
-                    <div className="absolute inset-0 bg-slate-950/60 backdrop-blur-[2px]"></div>
+                    <div className="absolute inset-0 bg-slate-950/70 sm:bg-slate-950/60 backdrop-blur-[2px]"></div>
                 </div>
 
                 <div className="relative z-10 w-full max-w-[1400px] grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -105,11 +105,11 @@ export default function SignupPage() {
 
                     {/* Column 3: Signup Card (Right) */}
                     <div className="lg:col-span-5 flex justify-center lg:justify-end mt-4">
-                        <div className="w-full max-w-[500px] bg-white rounded-[2.5rem] p-10 lg:p-12 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.6)] animate-slide-up relative overflow-hidden group">
+                        <div className="w-full max-w-[500px] bg-white rounded-[2rem] sm:rounded-[2.5rem] p-6 sm:p-10 lg:p-12 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.6)] animate-slide-up relative overflow-hidden group">
 
-                            <div className="text-center mb-8">
-                                <h1 className="text-3xl font-black text-slate-900">Create ERP Account</h1>
-                                <p className="text-[13px] font-bold text-slate-400 mt-1 uppercase tracking-widest">Enroll to continue</p>
+                            <div className="text-center mb-6 sm:mb-8">
+                                <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-none">Create ERP Account</h1>
+                                <p className="text-[11px] sm:text-[13px] font-bold text-slate-400 mt-2 uppercase tracking-widest">Enroll to continue</p>
                             </div>
 
                             <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-4">

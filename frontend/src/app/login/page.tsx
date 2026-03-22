@@ -32,10 +32,10 @@ export default function LoginPage() {
         <div className="min-h-screen bg-slate-900 flex flex-col font-sans overflow-x-hidden">
 
             {/* ── Institutional Header ─────────────────── */}
-            <header className="w-full bg-white shadow-md flex-shrink-0">
+            <header className="w-full bg-white shadow-md flex-shrink-0 z-20">
                 <img
                     src="/header.png"
-                    className="w-full h-auto max-h-[90px] object-fill"
+                    className="w-full h-auto max-h-[60px] sm:max-h-[90px] object-contain sm:object-fill"
                     alt="JSCOE Institutional Header"
                 />
             </header>
@@ -48,7 +48,7 @@ export default function LoginPage() {
                     className="absolute inset-0 bg-cover bg-center bg-fixed"
                     style={{ backgroundImage: "url('/background.jpg')" }}
                 >
-                    <div className="absolute inset-0 bg-slate-900/75 backdrop-blur-[1px]" />
+                    <div className="absolute inset-0 bg-slate-900/80 sm:bg-slate-900/75 backdrop-blur-[2px] sm:backdrop-blur-[1px]" />
                 </div>
 
                 {/* 3-column grid */}
@@ -87,8 +87,8 @@ export default function LoginPage() {
                             </p>
                         </div>
 
-                        {/* Feature cards */}
-                        <div className="space-y-3">
+                        {/* Feature cards - Hidden on very small screens to save space */}
+                        <div className="hidden sm:block space-y-3">
                             <div className="flex items-start gap-4 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
                                 <div className="w-9 h-9 mt-0.5 rounded-full bg-blue-600/20 border border-blue-500/40 flex items-center justify-center text-blue-400 shrink-0">
                                     <CheckCircle2 size={18} />
@@ -113,29 +113,30 @@ export default function LoginPage() {
                             </div>
                         </div>
 
-                        {/* Info bar */}
-                        <div className="bg-slate-800/70 border border-white/10 rounded-xl px-5 py-3 text-[12px] text-slate-400 text-center">
-                            This system is developed and maintained by our dedicated contributors and technical team.
-                        </div>
+                        {/* Footer links - Hidden on smallest mobile to focus on login */}
+                        <div className="hidden sm:flex flex-col gap-3">
+                            <div className="bg-slate-800/70 border border-white/10 rounded-xl px-5 py-3 text-[12px] text-slate-400 text-center">
+                                This system is developed and maintained by our dedicated contributors and technical team.
+                            </div>
 
-                        {/* Contributors button */}
-                        <Link
-                            href="/contributors"
-                            className="flex items-center justify-center gap-2 w-full py-3 bg-slate-800/70 border border-white/10 rounded-xl text-[13px] font-bold text-white hover:bg-slate-700/80 hover:border-white/20 transition-all"
-                        >
-                            <Heart size={14} className="text-red-400" />
-                            Contributors
-                        </Link>
+                            <Link
+                                href="/contributors"
+                                className="flex items-center justify-center gap-2 w-full py-3 bg-slate-800/70 border border-white/10 rounded-xl text-[13px] font-bold text-white hover:bg-slate-700/80 hover:border-white/20 transition-all font-sans"
+                            >
+                                <Heart size={14} className="text-red-400" />
+                                Contributors List
+                            </Link>
+                        </div>
                     </div>
 
                     {/* ── COL 3: Login Card ────────────── */}
                     <div className="lg:col-span-4 flex justify-center lg:justify-end">
                         <div className="w-full max-w-[420px] bg-white rounded-3xl p-8 lg:p-10 shadow-[0_25px_60px_-10px_rgba(0,0,0,0.6)]">
 
-                            <div className="text-center mb-8">
-                                <h2 className="text-2xl font-black text-slate-900">Welcome back</h2>
-                                <p className="text-[12px] font-semibold text-slate-400 mt-1 uppercase tracking-widest">
-                                    Sign in to continue
+                            <div className="text-center mb-6 sm:mb-8">
+                                <h2 className="text-xl sm:text-2xl font-black text-slate-900 leading-none">Welcome back</h2>
+                                <p className="text-[11px] sm:text-[12px] font-semibold text-slate-400 mt-2 uppercase tracking-widest">
+                                    Sign in to explore ERP
                                 </p>
                             </div>
 
