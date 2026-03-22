@@ -1,4 +1,9 @@
 require('dotenv').config();
+
+// Ensure Fallback Environment Variables for Production
+process.env.JWT_SECRET = process.env.JWT_SECRET || 'tnp-jscoe-super-secret-jwt-key-2026';
+process.env.JWT_EXPIRE = process.env.JWT_EXPIRE || '7d';
+
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
