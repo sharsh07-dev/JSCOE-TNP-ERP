@@ -11,10 +11,12 @@ initFirebase();
 
 const app = express();
 
-// Security middleware
+const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
+console.log(`🔒 CORS: Allowing origin ${frontendUrl}`);
+
 app.use(helmet());
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+    origin: frontendUrl,
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
