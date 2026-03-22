@@ -18,9 +18,10 @@ async function callAI(prompt, systemPrompt = "You are an expert TNP coordinator.
   } catch (err) {
     const isQuotaError = err.message.includes('429') || err.message.includes('quota');
     const isModelError = err.message.includes('404') || err.message.includes('not found');
-
-    if ((isQuotaError || isModelError) && process.env.GROQ_API_KEY) {
-      console.warn(`Gemini Error: ${err.message}. Falling back to Groq (Llama 3.3)...`);
+    const isForbidden = err.message.includes('403') || err.message.includes('leaked');
+        
+    if ((isQuotaError || isModelError || isForbidden) && groq) {
+      console.warn(`Gemini Error (Report): ${err.message}. Falling back to Groq (Llama 3)...`);
       try {
         const completion = await groq.chat.completions.create({
           messages: [

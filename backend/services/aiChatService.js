@@ -128,8 +128,9 @@ ANSWER:`;
     } catch (err) {
         const isQuotaError = err.message.includes('429') || err.message.includes('quota');
         const isModelError = err.message.includes('404') || err.message.includes('not found');
+        const isForbidden = err.message.includes('403') || err.message.includes('leaked');
         
-        if ((isQuotaError || isModelError) && groq) {
+        if ((isQuotaError || isModelError || isForbidden) && groq) {
             console.warn(`Gemini Error in Chat: ${err.message}. Falling back to Groq...`);
             const completion = await groq.chat.completions.create({
                 messages: [{ role: 'user', content: prompt }],

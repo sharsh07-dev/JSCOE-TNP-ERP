@@ -60,6 +60,7 @@ function AIChatPanel({ reportId }: { reportId: string }) {
             const aiTs = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
             setMessages(prev => [...prev, { role: 'ai', text: res.data.answer, time: aiTs }]);
         } catch (err: any) {
+            console.error('🔥 AI Chat API Failed:', err.response?.data || err.message || err);
             const aiTs = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
             setMessages(prev => [...prev, {
                 role: 'ai',
