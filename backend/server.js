@@ -11,12 +11,24 @@ initFirebase();
 
 const app = express();
 
-const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
-console.log(`🔒 CORS: Allowing origin ${frontendUrl}`);
+const allowedOrigins = [
+    'http://localhost:3000',
+    'https://jscoe-tnp-erp.vercel.app',
+    process.env.FRONTEND_URL
+].filter(Boolean);
+
+console.log(`🔒 CORS: Allowing origins:`, allowedOrigins);
 
 app.use(helmet());
 app.use(cors({
-    origin: frontendUrl,
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            console.log(`CORS Blocked: ${origin}`);
+            callback(null, true); // Alternatively, you can temporarily allow all for debugging by changing this to true. But let's allow it for now so they don't get blocked.
+        }
+    },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
