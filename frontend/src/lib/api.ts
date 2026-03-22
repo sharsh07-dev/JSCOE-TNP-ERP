@@ -1,6 +1,12 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+let rawApiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+// Automatically append /api if the user forgot to add it in Vercel environment variables
+if (!rawApiUrl.endsWith('/api') && !rawApiUrl.endsWith('/api/')) {
+    rawApiUrl = rawApiUrl.replace(/\/$/, '') + '/api';
+}
+const API_URL = rawApiUrl;
+
 console.log('🔗 API Base URL:', API_URL);
 
 const api = axios.create({
