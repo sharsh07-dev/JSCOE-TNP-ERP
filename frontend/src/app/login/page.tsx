@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { authAPI } from '@/lib/api';
 import { useAuthStore } from '@/store';
 import toast from 'react-hot-toast';
-import { Loader2, CheckCircle2, Award, Heart, Eye, EyeOff } from 'lucide-react';
+import { Loader2, CheckCircle2, Award, Heart, Eye, EyeOff, FileText, Sparkles, BarChart3, Shield } from 'lucide-react';
 import Link from 'next/link';
 
 export default function LoginPage() {
@@ -82,43 +82,68 @@ export default function LoginPage() {
                             <p className="text-[15px] font-bold text-blue-400 mt-3">
                                 (Training &amp; Placement Cell — JSPM&apos;s JSCOE)
                             </p>
-                            <p className="text-[14px] text-slate-300 mt-4 leading-relaxed">
-                                A centralized platform to manage students, teachers,
-                                academics, and administration—designed to simplify
-                                college operations and improve communication across JSPM.
+                            <p className="text-[14px] text-slate-300 mt-4 leading-relaxed max-w-lg">
+                                The all-in-one platform for your Training &amp; Placement Cell — generate reports, track analytics, and get AI-driven insights effortlessly.
                             </p>
                         </div>
 
                         {/* Feature cards - Hidden on very small screens to save space */}
-                        <div className="hidden sm:block space-y-3">
-                            <div className="flex items-start gap-4 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
-                                <div className="w-9 h-9 mt-0.5 rounded-full bg-blue-600/20 border border-blue-500/40 flex items-center justify-center text-blue-400 shrink-0">
-                                    <CheckCircle2 size={18} />
+                            <div className="grid grid-cols-2 gap-3">
+                                <div className="flex flex-col gap-2 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
+                                    <div className="w-8 h-8 rounded-full bg-blue-600/20 border border-blue-500/40 flex items-center justify-center text-blue-400 shrink-0">
+                                        <FileText size={16} />
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[13px] font-bold text-white leading-tight">Automated Reports</h4>
+                                        <p className="text-[11px] text-slate-400 mt-1 leading-snug">
+                                            Generate session &amp; placement drive reports in seconds.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div>
-                                    <h4 className="text-[14px] font-bold text-white">Student Management</h4>
-                                    <p className="text-[12px] text-slate-400 mt-0.5 leading-snug">
-                                        Track attendance, results, profiles, and academic progress in real time.
-                                    </p>
+                                <div className="flex flex-col gap-2 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
+                                    <div className="w-8 h-8 rounded-full bg-purple-600/20 border border-purple-500/40 flex items-center justify-center text-purple-400 shrink-0">
+                                        <Sparkles size={16} />
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[13px] font-bold text-white leading-tight">AI-Powered Insights</h4>
+                                        <p className="text-[11px] text-slate-400 mt-1 leading-snug">
+                                            Get intelligent analysis, recommendations, and trends.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col gap-2 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
+                                    <div className="w-8 h-8 rounded-full bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shrink-0">
+                                        <BarChart3 size={16} />
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[13px] font-bold text-white leading-tight">Analytics Dashboard</h4>
+                                        <p className="text-[11px] text-slate-400 mt-1 leading-snug">
+                                            Track placement stats and department-wise performance.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col gap-2 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
+                                    <div className="w-8 h-8 rounded-full bg-amber-600/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shrink-0">
+                                        <Shield size={16} />
+                                    </div>
+                                    <div>
+                                        <h4 className="text-[13px] font-bold text-white leading-tight">Role-Based Access</h4>
+                                        <p className="text-[11px] text-slate-400 mt-1 leading-snug">
+                                            Admins, coordinators, and viewers with varied control.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="flex items-start gap-4 p-4 bg-white/8 border border-white/10 rounded-2xl hover:bg-white/12 transition-all">
-                                <div className="w-9 h-9 mt-0.5 rounded-full bg-emerald-600/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shrink-0">
-                                    <Award size={18} />
-                                </div>
-                                <div>
-                                    <h4 className="text-[14px] font-bold text-white">Faculty &amp; Admin Control</h4>
-                                    <p className="text-[12px] text-slate-400 mt-0.5 leading-snug">
-                                        Manage teachers, subjects, schedules, notices, and internal workflows securely.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
                         {/* Footer links - Hidden on smallest mobile to focus on login */}
                         <div className="hidden sm:flex flex-col gap-3">
-                            <div className="bg-slate-800/70 border border-white/10 rounded-xl px-5 py-3 text-[12px] text-slate-400 text-center">
-                                This system is developed and maintained by our dedicated contributors and technical team.
+                            <div className="bg-slate-800/70 border border-white/10 rounded-lg px-4 py-3">
+                                <ul className="grid grid-cols-2 gap-y-2 gap-x-4 text-[11px] text-slate-300 font-medium">
+                                    <li className="flex items-center gap-2"><CheckCircle2 size={12} className="text-blue-400" /> One-click PDF export</li>
+                                    <li className="flex items-center gap-2"><CheckCircle2 size={12} className="text-blue-400" /> Works on any device</li>
+                                    <li className="flex items-center gap-2"><CheckCircle2 size={12} className="text-blue-400" /> Real-time collaboration</li>
+                                    <li className="flex items-center gap-2"><CheckCircle2 size={12} className="text-blue-400" /> Cloud-backed storage</li>
+                                </ul>
                             </div>
 
                             <Link
